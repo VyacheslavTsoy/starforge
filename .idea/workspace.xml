@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="233928c4-3eda-4f04-bafd-c6dfee0f3797" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Liquid File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/scss/sections/featured-carousel.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/resources.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scripts/common.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scripts/helpers.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scripts/sections/featured-carousel.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scripts/sections/product-recommendations.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="29k0w8bgT8cEUgTluprfzqXL90K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="233928c4-3eda-4f04-bafd-c6dfee0f3797" name="Default Changelist" comment="" />
+      <created>1653642031420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653642031420</updated>
+      <workItem from="1653642033038" duration="4746000" />
+      <workItem from="1653662004796" duration="111000" />
+      <workItem from="1653662124953" duration="35000" />
+      <workItem from="1653903341132" duration="7442000" />
+      <workItem from="1653988930652" duration="12547000" />
+      <workItem from="1654075717006" duration="70000" />
+      <workItem from="1654089104728" duration="5223000" />
+      <workItem from="1654166955016" duration="10468000" />
+      <workItem from="1654249104544" duration="21000" />
+      <workItem from="1654257212167" duration="8258000" />
+      <workItem from="1654594506429" duration="599000" />
+      <workItem from="1654606411863" duration="3723000" />
+      <workItem from="1654698662323" duration="2410000" />
+      <workItem from="1654781926451" duration="8992000" />
+      <workItem from="1654848482674" duration="11000" />
+      <workItem from="1654951501699" duration="13106000" />
+      <workItem from="1655103933930" duration="30990000" />
+      <workItem from="1655211697551" duration="9960000" />
+      <workItem from="1655282431294" duration="9382000" />
+      <workItem from="1655298121149" duration="658000" />
+      <workItem from="1655371135629" duration="8786000" />
+      <workItem from="1655464401522" duration="8861000" />
+      <workItem from="1655713699797" duration="2165000" />
+      <workItem from="1655717851421" duration="7353000" />
+      <workItem from="1655753143958" duration="1600000" />
+      <workItem from="1655794358295" duration="4565000" />
+      <workItem from="1655806090621" duration="1485000" />
+      <workItem from="1655811105913" duration="6271000" />
+      <workItem from="1655818720409" duration="1713000" />
+      <workItem from="1655825953896" duration="7234000" />
+      <workItem from="1655909963709" duration="5666000" />
+      <workItem from="1655971171035" duration="13238000" />
+      <workItem from="1656008860101" duration="1056000" />
+      <workItem from="1656057566218" duration="2693000" />
+      <workItem from="1656320732923" duration="8261000" />
+      <workItem from="1656338491870" duration="696000" />
+      <workItem from="1663076556233" duration="95000" />
+      <workItem from="1665059372621" duration="402000" />
+      <workItem from="1665059794774" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

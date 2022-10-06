@@ -1,0 +1,140 @@
+.section-rich-text + .products-grid {
+    padding-top: 130px;
+    
+    @include media(tablet) {
+        padding-top: 51px;
+    }
+}
+
+.product-grid__container {
+    max-width: 1386px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    .section-header {
+        margin-bottom: 185px;
+    }
+    
+    @include media(tablet) {
+        .section-header {
+            margin-bottom: 79px;
+        }
+    }
+}
+
+.product-grid {
+    
+    &__products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: -149px;
+    }
+    
+    &__item {
+        width: calc(33.333% - 24px);
+        margin: 0 12px 204px;
+    }
+    
+    @include media(tabletL) {
+    
+        &__products {
+        
+            justify-content: flex-start;
+        
+        }
+    
+        &__item {
+            width: calc(50% - 24px);
+            margin: 0 12px 204px;
+        }
+        
+    }
+    
+    
+    @include media(tablet) {
+        &__products {
+            margin: 0 -4px -93px;
+        }
+    
+        &__item {
+            width: calc(50% - 16px);
+            margin: 0 8px 53px;
+        }
+    }
+}
+
+
+.product-card {
+    border-radius: 16px;
+    padding: 40px 40px 10px;
+    
+    &__image {
+        margin: -199px -40px -20px;
+        overflow: hidden;
+        position: relative;
+        
+        .images {
+            margin: 0 -35px;
+        }
+    }
+    
+    &__link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+    }
+    
+    &__description {
+        color: $color-white;
+    }
+    
+    &__title {
+        margin: 0 0 7px;
+    }
+    
+    &__title-link {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    
+    &__attribute {
+        margin: 0 0 2px;
+        font-family: $font_extended_balance;
+        font-size: 16px;
+        font-weight: 400;
+        color: $color-white;
+        letter-spacing: 0.15px;
+    }
+    
+    
+    .oke-stars {
+        svg {
+            height: 16px !important;
+        }
+    }
+    
+    @include media(tablet) {
+        border-radius: 8px;
+        padding: 8px 8px 2px;
+    
+        &__image {
+            margin: -71px -8px 11px;
+        
+            .images {
+                margin: 0 -8px;
+            }
+        }
+    
+    
+        &__title {
+            margin: 0 0 6px;
+        }
+    }
+}
+
+

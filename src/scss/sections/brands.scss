@@ -1,0 +1,128 @@
+@import "../resources.scss";
+
+.brands {
+  text-align: center;
+  padding: 7.5rem 0;
+  background: linear-gradient(0deg, rgba(189, 249, 161, 0.08) 0%, rgba(189, 249, 161, 0) 36.51%);
+
+  @include media(tabletL) {
+    padding: 5rem 0 3.375rem;
+  }
+
+  .container {
+    @include media(tablet) {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    @include media(tablet) {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__title {
+    margin-bottom: 2.5rem;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2.5rem;
+
+    @include media(tabletL) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 0.93rem;
+      grid-row-gap: 1.5rem;
+    }
+
+    @include media(tablet) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__item {
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 15.625rem;
+      background: $color-black;
+      border: 1px solid rgba($color-white, 0.2);
+
+      @include media(tablet) {
+        height: 9.5rem;
+        padding: 2rem;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+      }
+    }
+
+    &-caption {
+      margin: -1.43rem 1.5rem 0;
+      text-decoration: none;
+
+      @include media(tablet) {
+        margin: 0;
+      }
+    }
+
+    &-btn {
+      font-size: 1.125rem;
+      line-height: 2.875rem;
+      height: auto;
+      padding: 0 0.5rem;
+      text-decoration: none;
+      background-color: $color-green !important;
+      //color: $color-black;
+      font-weight: 500;
+      display: block;
+      text-transform: none;
+      position: relative;
+      overflow: hidden;
+
+      &[disabled] {
+        opacity: 1;
+      }
+
+      &::before {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: $color-purple;
+        transition: all ease 500ms !important;
+        content: '';
+      }
+
+      &:hover::before {
+        width: 100%;
+      }
+
+      span {
+        display: inline-block;
+        position: relative;
+        z-index: 10;
+      }
+
+      @include media(tabletL) {
+        margin: 0;
+        font-size: 1rem;
+        padding: 0.5rem 0.62rem;
+        line-height: 1.6rem;
+      }
+    }
+  }
+}

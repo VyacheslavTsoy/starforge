@@ -1,0 +1,56 @@
+@import "~sass-rem/rem";
+
+
+@mixin media($breakpoint) {
+  @if $breakpoint==desktopS {
+    @media only screen and (max-width: 1150px) {
+      @content;
+    }
+  }
+  @if $breakpoint==tabletL {
+    @media only screen and (max-width: 991px) {
+      @content;
+    }
+  }
+  @if $breakpoint==tablet {
+    @media only screen and (max-width: 767px) {
+      @content;
+    }
+  }
+  @if $breakpoint==mobile {
+    @media only screen and (max-width: 479px) {
+      @content;
+    }
+  }
+  @if $breakpoint==mobileS {
+    @media only screen and (max-width: 374px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==desktopMin {
+    @media only screen and (min-width: 992px) {
+      @content;
+    }
+  }
+}
+
+// Primary Colors
+$color-light-grey: #f4f4f4;
+$color-grey: #c4c4c4;
+$color-dark-grey: #d9d9d9;
+
+// System Colors
+$color-white: #fff;
+$color-black: #0A101D;
+$color-light-navy: #33485B;
+$color-light-blue: #CAD8EC;
+$color-purple: #8F68FF;
+$color-red: #FF928B;
+$color-green: #BDF9A1;
+$color-tag-green: #88D265;
+
+// Font family
+$font_heading:  'geom-graphic', sans-serif;
+$font_extended_balance: "priori-sans", sans-serif;
+$font_main_balance: "t26-carbon", sans-serif;
